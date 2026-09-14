@@ -1,5 +1,6 @@
 # Local build outputs and generated images
 /build/
+/dist/
 *.obj
 *.pdb
 *.ilk

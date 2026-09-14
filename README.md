@@ -3,7 +3,19 @@
 基于 **C++17 + EasyX + GDI+** 的 Windows 简单几何图形绘制系统。
 EasyX 管理窗口、消息与画布，GDI+ 提供抗锯齿绘制。
 
-## 运行与编译
+## 下载使用（无需编程环境）
+
+**支持 Windows 10 / 11，x64 电脑。** 不需要安装 Visual Studio、EasyX 或单独的 VC++ 运行库。
+
+- **[下载安装包](https://github.com/wcy2432320756-a11y/wcy/releases/download/v1.0.0/GeometryStudio-1.0.0-Windows-x64-Setup.exe)**：下载后双击，按照向导安装，通过开始菜单启动。可在 Windows 设置中卸载。
+- **[下载免安装 ZIP](https://github.com/wcy2432320756-a11y/wcy/releases/download/v1.0.0/GeometryStudio-1.0.0-Windows-x64-Portable.zip)**：解压后双击 `geodraw.exe`。
+- [所有版本与校验文件](https://github.com/wcy2432320756-a11y/wcy/releases)
+
+请下载 Release 附件，而非 GitHub 自动生成的 Source code 压缩包。
+安装包目前没有代码签名，Windows 可能提示“未知发布者”；请确认来源和 SHA-256 校验值，不要关闭系统安全保护。
+安装器为英文向导，软件界面为中文。暂不提供 macOS、Linux 和 Windows 32 位版本。
+
+## 开发者：运行与编译
 
 - 双击 `build\geodraw.exe` 启动。
 - 双击 `build.bat` 编译。需要 Visual Studio 2022 Build Tools 的 C++ 工具链与 EasyX x64。

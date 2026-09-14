@@ -22,7 +22,7 @@ if not exist build mkdir build
 REM /utf-8   : treat sources as UTF-8
 REM /EHsc    : standard C++ exception model
 REM /SUBSYSTEM:WINDOWS with /ENTRY:mainCRTStartup keeps main() but hides the console
-cl /nologo /EHsc /utf-8 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0601 /DWINVER=0x0601 /W4 /wd4201 /O2 /std:c++17 /Fo:build\ ^
+cl /nologo /EHsc /MT /utf-8 /DUNICODE /D_UNICODE /D_WIN32_WINNT=0x0601 /DWINVER=0x0601 /W4 /wd4201 /O2 /std:c++17 /Fo:build\ ^
    src\main.cpp src\shape.cpp src\ui.cpp ^
    /Fe:build\geodraw.exe ^
    /link /SUBSYSTEM:WINDOWS /ENTRY:mainCRTStartup ^
