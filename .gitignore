@@ -1,0 +1,16 @@
+# Local build outputs and generated images
+/build/
+*.obj
+*.pdb
+*.ilk
+*.log
+
+# Original local backups
+/backup-original-*/
+
+# Editor and machine-specific files
+.vs/
+.vscode/
+*.user
+Thumbs.db
+Desktop.ini
